@@ -1,0 +1,430 @@
+/* Cuerpo de la página */
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* listas y encabezado */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav li {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #292828;
+}
+
+.active {
+    background-color: #cc4226;
+}
+
+/* Texto */
+
+@font-face {
+    font-family: Subtitulos;
+    src: url('../fuentes/Rowfinde.otf') format(truetype);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+    box-shadow: 0 0px 20px #848484;
+
+}
+
+.text p {
+    line-height: 1.5;
+}
+
+.text:hover {
+    transform: scale(1.05);
+}
+
+.text1 {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.text1 h2 {
+    font-family: 'Subtitulos';
+    text-align: left;
+}
+
+.text1:hover {
+    transform: scale(1.05);
+}
+
+.text1 p {
+    line-height: 1.5;
+}
+
+.text2 {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.text2 h2 {
+    font-family: 'Subtitulos';
+    text-align: right;
+}
+
+.text2:hover {
+    transform: scale(1.05);
+}
+
+.text2 p {
+    line-height: 1.5;
+}
+
+.text3 {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: black;
+}
+
+.text3 h2 {
+    font-family: 'Subtitulos';
+    text-align: left;
+}
+
+.text3 p {
+    line-height: 1.5;
+}
+
+.text4 {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.text4 h2 {
+    font-family: 'Subtitulos';
+    text-align: left;
+}
+
+.text4:hover {
+    transform: scale(1.05);
+}
+
+.text4 p {
+    line-height: 1.5;
+}
+
+.sh {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: black;
+}
+
+.sh h2 {
+    font-family: 'Subtitulos';
+    text-align: center;
+}
+
+.sh p {
+    line-height: 1.5;
+}
+
+.lakeside {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.lakeside h2 {
+    font-family: 'Subtitulos';
+    text-align: left;
+}
+
+.lakeside p {
+    line-height: 1.5;
+}
+
+.lakeside:hover {
+    transform: scale(1.05);
+}
+
+.iglesia {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: black;
+}
+
+.iglesia h2 {
+    font-family: 'Subtitulos';
+    text-align: right;
+}
+
+.iglesia p {
+    line-height: 1.5;
+}
+
+.final {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.final h2 {
+    font-family: 'Subtitulos';
+    text-align: left;
+}
+
+.final p {
+    line-height: 1.5;
+}
+
+.final:hover {
+    transform: scale(1.05);
+}
+
+.finales {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.finales h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.finales a {
+    text-decoration: underline;
+    color: rgb(222, 68, 68);
+}
+
+.finales a:hover {
+    color: #912f1c;
+}
+
+footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer a {
+    color: #cc4226;
+}
+
+/* Imágenes */
+
+.f1 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f1:hover {
+    transform: scale(1.05);
+}
+
+.f2 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f2:hover {
+    transform: scale(1.05);
+}
+
+.f3 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f3:hover {
+    transform: scale(1.05);
+}
+
+.f4 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f4:hover {
+    transform: scale(1.05);
+}
+
+.f5 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f5:hover {
+    transform: scale(1.05);
+}
+
+.f6 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f6:hover {
+    transform: scale(1.05);
+}
+
+.f7 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f7:hover {
+    transform: scale(1.05);
+}
+
+.f8 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f8:hover {
+    transform: scale(1.05);
+}
+
+.foot {
+    justify-content: center;
+    position: static;
+}
+

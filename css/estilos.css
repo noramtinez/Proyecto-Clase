@@ -1,0 +1,177 @@
+/* Cuerpo de la WEB */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Encabezado y listas */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #2c2a2a;
+}
+
+.active {
+    background-color: #cc4226;
+}
+
+/* Texto */
+.text {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.text:hover {
+    transform: scale(1.1);
+}
+
+.text2 {
+    padding-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.text2:hover {
+    transform: scale(1.1);
+}
+
+.ReSH {
+    padding-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    
+}
+
+
+/* pie de pagina */
+
+footer p {
+    opacity: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer a {
+    color: #cc4226;
+}
+
+/* Imagenes */
+
+.img {
+    float: left;
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+    position: static;
+}
+
+.foot {
+    justify-content: center;
+    position: static;
+}
+
+/* Tablas */
+
+table {
+    text-align: center;
+}
+
+table a {
+    color: #cc4226;
+}
+
+
+/* Mapa */
+
+.Maps {
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.Maps:hover {
+    transform: scale(1.1);
+}
+
+/* Formulario */
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 1px;
+}
+
+label {
+    margin-bottom: 05px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+input:focus, textarea:focus {
+    border-color: red;
+}
+
+textarea {
+    vertical-align: top;
+    height: 40px;
+    resize: vertical;
+}
+
+.button {
+    margin-top: 05px;
+    margin-bottom: 20px;
+}

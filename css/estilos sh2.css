@@ -1,0 +1,380 @@
+/* Cuerpo de la página */
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* listas y encabezado */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav li {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #292828;
+}
+
+.active {
+    background-color: #cc4226;
+}
+
+
+/* texto */
+
+@font-face {
+    font-family: Subtitulos;
+    src: url('../fuentes/Rowfinde.otf') format(truetype);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+    box-shadow: 0 0px 20px #848484;
+
+}
+
+.text p {
+    line-height: 1.5;
+}
+
+.text:hover {
+    transform: scale(1.05);
+}
+
+.text1 h2 {
+    font-family: 'Subtitulos';
+    text-align: right;
+}
+
+.text1 {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.text1 p {
+    line-height: 1.5;
+}
+
+.text1:hover {
+    transform: scale(1.05);
+}
+
+.apartamentos {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #000000;
+}
+
+.apartamentos h2 {
+    font-family: 'Subtitulos';
+}
+
+.apartamentos p {
+    line-height: 1.5;
+}
+
+.rosewater {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.rosewater h2 {
+    font-family: 'Subtitulos';
+}
+
+.rosewater p {
+    line-height: 1.5;
+}
+
+.rosewater:hover {
+    transform: scale(1.05);
+}
+
+.hospital {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.hospital h2 {
+    font-family: 'Subtitulos';
+    text-align: right;
+}
+
+.hospital p {
+    line-height: 1.5;
+}
+
+.hospital:hover {
+    transform: scale(1.05);
+}
+
+.prision {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background: black;
+}
+
+.prision h2 {
+    font-family: 'Subtitulos';
+}
+
+.prision p {
+    line-height: 1.5;
+}
+
+.revelacion {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.revelacion h2 {
+    font-family: 'Subtitulos';
+}
+
+.revelacion p {
+    line-height: 1.5;
+}
+
+.revelacion:hover {
+    transform: scale(1.05);
+}
+
+.final {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #1b1b1b;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.final h2 {
+    font-family: 'Subtitulos';
+}
+
+.final p {
+    line-height: 1.5;
+}
+
+.final:hover {
+    transform: scale(1.05);
+}
+
+.finales {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: black;
+}
+
+.finales a {
+    text-decoration: underline;
+    color: rgb(222, 68, 68);
+}
+
+.finales a:hover {
+    color: #912f1c;
+}
+
+.finales h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer a {
+    color: #cc4226;
+}
+
+/* Imágenes */
+
+.f1 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f1:hover {
+    transform: scale(1.05);
+}
+
+.f2 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.f2:hover {
+    transform: scale(1.05);
+}
+
+.f3 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f3:hover {
+    transform: scale(1.05);
+}
+
+.f4 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f4:hover {
+    transform: scale(1.05);
+}
+
+.f5 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f5:hover {
+    transform: scale(1.05);
+}
+
+.f6 {
+    border-radius: 5%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.429);
+}
+
+.f6:hover {
+    transform: scale(1.05);
+}
+
+.foot {
+    justify-content: center;
+    position: static;
+}
